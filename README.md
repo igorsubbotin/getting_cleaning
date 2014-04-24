@@ -6,11 +6,11 @@
     * load subjects from "./UCI_HAR_Dataset/test/subject_test.txt" using read.table function and assign column name
     * join data in one test data set using cbind function
 
-## load training data set
-### load measurement from "./UCI_HAR_Dataset/train/X_tarin.txt" using read.table function
-### load activities from "./UCI_HAR_Dataset/train/y_tarin.txt" using read.table function and assign column name
-### load subjects from "./UCI_HAR_Dataset/train/subject_train.txt" using read.table function and assign column name
-### join data in one training data set using cbind function
+ * load training data set
+   * load measurement from "./UCI_HAR_Dataset/train/X_tarin.txt" using read.table function
+    * load activities from "./UCI_HAR_Dataset/train/y_tarin.txt" using read.table function and assign column name
+    * load subjects from "./UCI_HAR_Dataset/train/subject_train.txt" using read.table function and assign column name
+    * join data in one training data set using cbind function
 # merge the training and the test sets to create one data set using rbind
 # use descriptive activity names to name the activities in the data set and appropriately label the data set with descriptive activity names
 ## read labels from "./UCI_HAR_Dataset/activity_labels.txt" using read.table function and then factorize activity column in merged data set using function factor
