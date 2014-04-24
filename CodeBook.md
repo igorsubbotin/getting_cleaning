@@ -19,10 +19,9 @@ SITTING,
 STANDING,
 LAYING)
 		
-**subject**						INTERGER
-	Subject id
+**subject** [INTERGER] Subject id
 
-**tBodyAcc_mean_X**				NUMERIC
+**tBodyAcc_mean_X** [NUMERIC]
 	
 **tBodyAcc_mean_Y**				NUMERIC
 
