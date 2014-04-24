@@ -13,8 +13,7 @@ This tidy dataset is the result of transformation and clean up of data from the 
 
 ### Columns:
 
-**activity_type** [FACTOR] Activity type (
-WALKING 
+**activity_type** [FACTOR] Activity type (WALKING, 
 WALKING_UPSTAIRS, 
 WALKING_DOWNSTAIRS,
 SITTING,
