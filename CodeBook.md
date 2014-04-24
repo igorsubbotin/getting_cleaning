@@ -12,8 +12,7 @@ These signals were used to estimate variables of the feature vector for each pat
 This tidy dataset is the result of transformation and clean up of data from the source pack of multiple datasets. Data was extracted from test (measurements, activtiy type and subject) dataset and training (measurements, activtiy type and subject) dataset and merged then in one dataset. In this tidy dataset there are only the measurements on the mean (mean postfix) and standard deviation (std postfix) for each measurement which were extracted from the source datasets. Descriptive column headers were added then. Activity type data was transformed from integer to descriptive labels. All data was grouped by subject and activity type and calculated mean for all measurement columns.
 
 **activity_type**   FACTOR
-
-Activity type
+   Activity type
 
 WALKING WALKING_UPSTAIRS 
 
