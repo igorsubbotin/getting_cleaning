@@ -11,6 +11,8 @@ These signals were used to estimate variables of the feature vector for each pat
 
 This tidy dataset is the result of transformation and clean up of data from the source pack of multiple datasets. Data was extracted from test (measurements, activtiy type and subject) dataset and training (measurements, activtiy type and subject) dataset and merged then in one dataset. In this tidy dataset there are only the measurements on the mean (mean postfix) and standard deviation (std postfix) for each measurement which were extracted from the source datasets. Descriptive column headers were added then. Activity type data was transformed from integer to descriptive labels. All data was grouped by subject and activity type and calculated mean for all measurement columns.
 
+### Columns:
+
 **activity_type** [FACTOR] Activity type (
 WALKING 
 WALKING_UPSTAIRS, 
@@ -23,132 +25,132 @@ LAYING)
 
 **tBodyAcc_mean_X** [NUMERIC]
 	
-**tBodyAcc_mean_Y**				NUMERIC
+**tBodyAcc_mean_Y** [NUMERIC]
 
-**tBodyAcc_mean()_Z**			NUMERIC
+**tBodyAcc_mean()_Z** [NUMERIC]
 
-**tBodyAcc_std_X**				NUMERIC
+**tBodyAcc_std_X** [NUMERIC]
 
-**tBodyAcc_std_Y**				NUMERIC
+**tBodyAcc_std_Y** [NUMERIC]
 
-**tBodyAcc_std_Z**				NUMERIC
+**tBodyAcc_std_Z** [NUMERIC]
 
-**tGravityAcc_mean_X**			NUMERIC
+**tGravityAcc_mean_X** [NUMERIC]
 
-**tGravityAcc_mean_Y**			NUMERIC
+**tGravityAcc_mean_Y** [NUMERIC]
 
-**tGravityAcc_mean_Z**			NUMERIC
+**tGravityAcc_mean_Z** [NUMERIC]
 
-**tGravityAcc_std_X**			NUMERIC
+**tGravityAcc_std_X** [NUMERIC]
 
-**tGravityAcc_std_Y**			NUMERIC
+**tGravityAcc_std_Y** [NUMERIC]
 
-**tGravityAcc_std_Z**			NUMERIC
+**tGravityAcc_std_Z** [NUMERIC]
 
-**tBodyAccJerk_mean_X**			NUMERIC
+**tBodyAccJerk_mean_X** [NUMERIC]
 
-**tBodyAccJerk_mean_Y**			NUMERIC
+**tBodyAccJerk_mean_Y** [NUMERIC]
 
-**tBodyAccJerk_mean_Z**			NUMERIC
+**tBodyAccJerk_mean_Z** [NUMERIC
 
-**tBodyAccJerk_std_X**			NUMERIC
+**tBodyAccJerk_std_X** [NUMERIC]
 
-**tBodyAccJerk_std_Y**			NUMERIC
+**tBodyAccJerk_std_Y** [NUMERIC]
 
-**tBodyAccJerk_std_Z**			NUMERIC
+**tBodyAccJerk_std_Z** [NUMERIC]
 
-**tBodyGyro_mean_X**			NUMERIC
+**tBodyGyro_mean_X** [NUMERIC]
 
-**tBodyGyro_mean_Y**			NUMERIC
+**tBodyGyro_mean_Y** [NUMERIC]
 
-**tBodyGyro_mean_Z**			NUMERIC
+**tBodyGyro_mean_Z** [NUMERIC]
 
-**tBodyGyro_std_X**				NUMERIC
+**tBodyGyro_std_X** [NUMERIC]
 
-**tBodyGyro_std_Y**				NUMERIC
+**tBodyGyro_std_Y** [NUMERIC]
 
-**tBodyGyro_std_Z**				NUMERIC
+**tBodyGyro_std_Z** [NUMERIC]
 
-**tBodyGyroJerk_mean_X**		NUMERIC
+**tBodyGyroJerk_mean_X** [NUMERIC]
 
-**tBodyGyroJerk_mean_Y**		NUMERIC
+**tBodyGyroJerk_mean_Y** [NUMERIC]
 
-**tBodyGyroJerk_mean_Z**		NUMERIC
+**tBodyGyroJerk_mean_Z** [NUMERIC]
 
-**tBodyGyroJerk_std_X**			NUMERIC
+**tBodyGyroJerk_std_X** [NUMERIC]
 
-**tBodyGyroJerk_std_Y**			NUMERIC
+**tBodyGyroJerk_std_Y** [NUMERIC]
 
-**tBodyGyroJerk_std_Z**			NUMERIC
+**tBodyGyroJerk_std_Z** [NUMERIC]
 
-**tBodyAccMag_mean**			NUMERIC
+**tBodyAccMag_mean** [NUMERIC]
 
-**tBodyAccMag_std**				NUMERIC
+**tBodyAccMag_std** [NUMERIC]
 
-**tGravityAccMag_mean**			NUMERIC
+**tGravityAccMag_mean** [NUMERIC]
 
-**tGravityAccMag_std**			NUMERIC
+**tGravityAccMag_std** [NUMERIC]
 
-**tBodyAccJerkMag_mean**		NUMERIC	
+**tBodyAccJerkMag_mean** [NUMERIC]
 
-**tBodyAccJerkMag_std**			NUMERIC
+**tBodyAccJerkMag_std** [NUMERIC]
 
-**tBodyGyroMag_mean**			NUMERIC
+**tBodyGyroMag_mean** [NUMERIC]
 
-**tBodyGyroMag_std**			NUMERIC
+**tBodyGyroMag_std** [NUMERIC]
 
-**tBodyGyroJerkMag_mean**		NUMERIC
+**tBodyGyroJerkMag_mean** [NUMERIC]
 
-**tBodyGyroJerkMag_std**		NUMERIC
+**tBodyGyroJerkMag_std** [NUMERIC]
 
-**fBodyAcc_mean_X**				NUMERIC
+**fBodyAcc_mean_X** [NUMERIC]
 
-**fBodyAcc_mean_Y**				NUMERIC
+**fBodyAcc_mean_Y** [NUMERIC]
 
-**fBodyAcc_mean_Z**				NUMERIC
+**fBodyAcc_mean_Z** [NUMERIC]
 
-**fBodyAcc_std_X**				NUMERIC
+**fBodyAcc_std_X** [NUMERIC]
 
-**fBodyAcc_std_Y**				NUMERIC
+**fBodyAcc_std_Y** [NUMERIC]
 
-**fBodyAcc_std_Z**				NUMERIC
+**fBodyAcc_std_Z** [NUMERIC]
 
-**fBodyAccJerk_mean_X**			NUMERIC
+**fBodyAccJerk_mean_X** [NUMERIC]
 
-**fBodyAccJerk_mean_Y**			NUMERIC
+**fBodyAccJerk_mean_Y** [NUMERIC]
 
-**fBodyAccJerk_mean_Z**			NUMERIC
+**fBodyAccJerk_mean_Z** [NUMERIC]
 
-**fBodyAccJerk_std_X**			NUMERIC
+**fBodyAccJerk_std_X** [NUMERIC]
 
-**fBodyAccJerk_std_Y**			NUMERIC
+**fBodyAccJerk_std_Y** [NUMERIC]
 
-**fBodyAccJerk_std_Z**			NUMERIC
+**fBodyAccJerk_std_Z** [NUMERIC]
 
-**fBodyGyro_mean_X**			NUMERIC
+**fBodyGyro_mean_X** [NUMERIC]
 
-**fBodyGyro_mean_Y**			NUMERIC
+**fBodyGyro_mean_Y** [NUMERIC]
 
-**fBodyGyro_mean_Z**			NUMERIC
+**fBodyGyro_mean_Z** [NUMERIC]
 
-**fBodyGyro_std_X**				NUMERIC
+**fBodyGyro_std_X** [NUMERIC]
 
-**fBodyGyro_std_Y**				NUMERIC
+**fBodyGyro_std_Y** [NUMERIC]
 
-**fBodyGyro_std_Z**				NUMERIC
+**fBodyGyro_std_Z** [NUMERIC]
 
-**fBodyAccMag_mean**			NUMERIC
+**fBodyAccMag_mean** [NUMERIC]
 
-**fBodyAccMag_std**				NUMERIC
+**fBodyAccMag_std** [NUMERIC]
 
-**fBodyBodyAccJerkMag_mean**	NUMERIC
+**fBodyBodyAccJerkMag_mean** [NUMERIC]
 
-**fBodyBodyAccJerkMag_std**		NUMERIC
+**fBodyBodyAccJerkMag_std** [NUMERIC]
 
-**fBodyBodyGyroMag_mean**		NUMERIC
+**fBodyBodyGyroMag_mean** [NUMERIC]
 
-**fBodyBodyGyroMag_std**		NUMERIC
+**fBodyBodyGyroMag_std** [NUMERIC]
 
-**fBodyBodyGyroJerkMag_mean**	NUMERIC
+**fBodyBodyGyroJerkMag_mean** [NUMERIC]
 
-**fBodyBodyGyroJerkMag_std**	NUMERIC
+**fBodyBodyGyroJerkMag_std** [NUMERIC]
