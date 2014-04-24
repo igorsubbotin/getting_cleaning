@@ -1,4 +1,4 @@
-# load plyr library which is needed for this script
+* load plyr library which is needed for this script
 # load data
 ## load test data set
 ### load measurement from "./UCI_HAR_Dataset/test/X_test.txt" using read.table function
