@@ -2,7 +2,7 @@
 * load data
  * load test data set
    * load measurement from "./UCI_HAR_Dataset/test/X_test.txt" using read.table function
-   * load activities from "./UCI_HAR_Dataset/test/y_test.txt" using read.table function and assign column name
+    * load activities from "./UCI_HAR_Dataset/test/y_test.txt" using read.table function and assign column name
    * load subjects from "./UCI_HAR_Dataset/test/subject_test.txt" using read.table function and assign column name
    * join data in one test data set using cbind function
 
